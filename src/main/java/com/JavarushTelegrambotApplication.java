@@ -9,5 +9,5 @@ public class JavarushTelegrambotApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JavarushTelegrambotApplication.class, args);
 	}
-
+//test
 }
