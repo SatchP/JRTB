@@ -35,13 +35,11 @@ public class JavaRushTelegramBot extends TelegramLongPollingBot{
 
     @Override
     public String getBotUsername() {
-
         return name;
     }
 
     @Override
     public String getBotToken() {
-
         return token;
     }
 

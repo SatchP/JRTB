@@ -8,14 +8,17 @@
 		<version>2.3.9.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.github.SatchP.JRTB</groupId>
 	<artifactId>javarush-telegrambot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>javarush-telegrambot</name>
 	<description>Telegram bot fo Javarush from Satch</description>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
