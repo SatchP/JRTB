@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>com.github.SatchP.JRTB</groupId>
-	<artifactId>javarush-telegrambot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>javarush-telegrambot</name>
+	<artifactId>JavaRushTelegramBot</artifactId>
+	<version>1.0.0</version>
+	<name>JavaRushTelegramBot</name>
 	<description>Telegram bot fo Javarush from Satch</description>
 
 	<properties>
