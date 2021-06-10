@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>com.github.SatchP.JRTB</groupId>
-	<artifactId>javarush-telegrambot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>javarush-telegrambot</name>
+	<artifactId>JavaRushTelegramBot</artifactId>
+	<version>1.0.0</version>
+	<name>JavaRushTelegramBot</name>
 	<description>Telegram bot fo Javarush from Satch</description>
 
 	<properties>
@@ -39,7 +39,14 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.8.0-M1</version>
+			<scope>test</scope>
+		</dependency>
+    	<dependency>
 			<groupId>org.telegram</groupId>
 			<artifactId>telegrambots-spring-boot-starter</artifactId>
 			<version>5.1.1</version>
