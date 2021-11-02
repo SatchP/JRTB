@@ -16,8 +16,9 @@ private final SendBotMessageService sendBotMessageService;
                     + "<b>Начать\\закончить работу с ботом</b>\n"
                     + "%s - начать работу со мной\n"
                     + "%s - приостановить работу со мной\n\n"
-                    + "%s - получить помощь в работе со мной\n",
-            START.getCommandName(), STOP.getCommandName(), HELP.getCommandName());
+                    + "%s - получить помощь в работе со мной\n"
+                    + "%s - Скачать файл NRD\n",
+            START.getCommandName(), STOP.getCommandName(), HELP.getCommandName(),NRD.getCommandName());
 
     public HelpCommand(SendBotMessageService sendBotMessageService) {
         this.sendBotMessageService = sendBotMessageService;

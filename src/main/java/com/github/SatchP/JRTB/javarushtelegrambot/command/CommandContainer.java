@@ -19,7 +19,9 @@ public class CommandContainer {
                 .put(START.getCommandName(), new StartComand( sendBotMessageService ) )
                 .put(STOP.getCommandName(), new StopCommand( sendBotMessageService ) )
                 .put(HELP.getCommandName(), new HelpCommand( sendBotMessageService ) )
-                .put(NO.getCommandName(), new NoCommand( sendBotMessageService ) );
+                .put(NO.getCommandName(), new NoCommand( sendBotMessageService ) )
+                .put(NRD.getCommandName(), new getNRD(sendBotMessageService) );
+        
 
         unknownCommand = new UnknownCommand(sendBotMessageService);
     }
